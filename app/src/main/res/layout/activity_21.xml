@@ -34,13 +34,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/b1"
+                android:id="@+id/b121"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.333"
                 android:clickable="true"
                 android:focusable="auto"
-                android:text="Texte 1"/>
+                android:text="Yolo"/>
 
             <Button
                 android:id="@+id/b2"

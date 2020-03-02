@@ -15,7 +15,7 @@ public class Activity21 extends AppCompatActivity {
         setContentView(R.layout.activity_21);
     }
     public void OnClickButtonListener(Bundle savedInstanceState) {
-        b1 = (Button) findViewById(R.id.b1);
+        b1 = (Button) findViewById(R.id.b121);
         b1.setOnClickListener(new View.OnClickListener() {
             @
                     Override
