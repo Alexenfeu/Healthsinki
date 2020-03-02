@@ -20,7 +20,7 @@ public class Activity31 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity21.class);
+                Intent callActivity = new Intent(getApplicationContext(), VictoryActivity.class);
                 startActivity(callActivity);
             }
         });
@@ -29,7 +29,7 @@ public class Activity31 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity22.class);
+                Intent callActivity = new Intent(getApplicationContext(), VictoryActivity.class);
                 startActivity(callActivity);
             }
         });
@@ -38,7 +38,7 @@ public class Activity31 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity23.class);
+                Intent callActivity = new Intent(getApplicationContext(), VictoryActivity.class);
                 startActivity(callActivity);
             }
         });

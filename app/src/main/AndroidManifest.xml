@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity39"></activity>
+        <activity android:name=".LoseActivity"></activity>
+        <activity android:name=".VictoryActivity" />
+        <activity android:name=".Activity39" />
         <activity android:name=".Activity38" />
         <activity android:name=".Activity37" />
         <activity android:name=".Activity36" />
