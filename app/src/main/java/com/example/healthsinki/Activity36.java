@@ -13,6 +13,7 @@ public class Activity36 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36);
+        OnClickButtonListener(savedInstanceState);
     }
     public void OnClickButtonListener(Bundle savedInstanceState) {
         b1 = (Button) findViewById(R.id.b1);

@@ -10,19 +10,18 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.90"
-            android:background="@color/colorPrimary"
-            android:text="VICTORY !!!"
+            android:layout_weight="0.80"
+            android:src="@drawable/win"
             android:gravity="center"/>
 
         <Button
-            android:id="@+id/b1"
+            android:id="@+id/bVictory"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.10"
+            android:layout_weight="0.20"
             android:clickable="true"
             android:focusable="auto"
             android:text="Reset Game !"/>

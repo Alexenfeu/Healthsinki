@@ -6,13 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Activity21 extends AppCompatActivity {
-    private static Button b1, b2, b3;
+    private Button b1, b2, b3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_21);
+        OnClickButtonListener(savedInstanceState);
     }
     public void OnClickButtonListener(Bundle savedInstanceState) {
         b1 = (Button) findViewById(R.id.b121);
@@ -20,8 +22,8 @@ public class Activity21 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity31.class);
-                startActivity(callActivity);
+                Toast toast = Toast.makeText(getApplicationContext(), "Mauvaise réponse", Toast.LENGTH_SHORT);
+                toast.show();
             }
         });
         b2 = (Button) findViewById(R.id.b2);
@@ -29,7 +31,7 @@ public class Activity21 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity32.class);
+                Intent callActivity = new Intent(getApplicationContext(), Activity22.class);
                 startActivity(callActivity);
             }
         });
@@ -38,8 +40,8 @@ public class Activity21 extends AppCompatActivity {
             @
                     Override
             public void onClick(View v) {
-                Intent callActivity = new Intent(getApplicationContext(), Activity33.class);
-                startActivity(callActivity);
+                Toast toast = Toast.makeText(getApplicationContext(), "Mauvaise réponse", Toast.LENGTH_SHORT);
+                toast.show();
             }
         });
     }

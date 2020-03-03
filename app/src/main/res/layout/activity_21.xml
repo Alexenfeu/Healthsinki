@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.70"
-            android:src="@drawable/challenge3">
+            android:src="@drawable/challenge1">
 
         </ImageView>
 
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.10"
-            android:text="Question ?"
+            android:text="Vaut-il mieux se moucher avec :"
             android:gravity="center"/>
 
         <LinearLayout
@@ -40,7 +40,7 @@
                 android:layout_weight="0.333"
                 android:clickable="true"
                 android:focusable="auto"
-                android:text="Yolo"/>
+                android:text="son doigt ?"/>
 
             <Button
                 android:id="@+id/b2"
@@ -49,7 +49,7 @@
                 android:layout_weight="0.334"
                 android:clickable="true"
                 android:focusable="auto"
-                android:text="Texte 2"/>
+                android:text="un mouchoir en papier jetable ?"/>
 
             <Button
                 android:id="@+id/b3"
@@ -58,7 +58,7 @@
                 android:layout_weight="0.333"
                 android:clickable="true"
                 android:focusable="auto"
-                android:text="Texte 3"/>
+                android:text="un mouchoir réutilisable ?"/>
 
         </LinearLayout>
 

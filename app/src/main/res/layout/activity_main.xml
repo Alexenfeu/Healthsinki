@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,53 +13,18 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.70"
-            android:src="@drawable/challenge3">
-
-        </ImageView>
-
-        <TextView
-            android:id="@+id/text1"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.10"
-            android:text="Question ?"
+            android:layout_weight="0.80"
+            android:src="@drawable/logo"
             android:gravity="center"/>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/b1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.20"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/b1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:clickable="true"
-                android:focusable="auto"
-                android:text="Texte 1"/>
-
-            <Button
-                android:id="@+id/b2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.334"
-                android:clickable="true"
-                android:focusable="auto"
-                android:text="Texte 2"/>
-
-            <Button
-                android:id="@+id/b3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.333"
-                android:clickable="true"
-                android:focusable="auto"
-                android:text="Texte 3"/>
-
-        </LinearLayout>
+            android:clickable="true"
+            android:focusable="auto"
+            android:text="Commencer !"/>
 
     </LinearLayout>
 
